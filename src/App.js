@@ -1,12 +1,15 @@
-import Navbar from "./Components/Common/Navbar";
+import { Route, Routes } from "react-router-dom";
+import Layout from "./Components/Common/Layout";
+
 
 function App() {
   return (
-    <div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+    
+      </Route>
       
-<Navbar/>
-
-    </div>
+    </Routes>
   );
 }
 
