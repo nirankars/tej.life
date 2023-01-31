@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer () {
     return (
-        <Footer className="container mx-auto grid grid-cols-2 text-[#f2f6f9] ">
+        <footer className="container mx-auto grid grid-cols-2 text-[#f2f6f9] ">
             <h1 className="col-start-1">
             <span>तेज़</span> Life
             </h1>
@@ -19,6 +19,6 @@ export default function Footer () {
                 transparency
              </a>
             </div>
-        </Footer>
+        </footer>
     );
 }

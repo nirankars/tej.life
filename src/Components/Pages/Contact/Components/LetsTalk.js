@@ -5,7 +5,7 @@ export default function LetsTalk () {
     return(
         <>
            
-      <div className="mt-40">
+      <div className="mt-8">
         <div className="container mx-auto text-white flex">
           <h1 className="text-[250px] font-extrabold">
             let's <br />
