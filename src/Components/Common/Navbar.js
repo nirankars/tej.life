@@ -10,13 +10,13 @@ export default function Navbar() {
   return (
     <div className="">
       <nav className={showNavbar ? "bg-slate-50" : "text-[#f2f6f9]"}>
-        <div className="grid lg:grid-cols-2 sm:grid-cols-1 pt-4">
+        <div className="grid lg:grid-cols-2 sm:grid-cols-1 pt-12">
           <a href="/" className="">
             <h1
               className={
                 showNavbar
-                  ? "text-4xl font-bold col-start-1 ml-20 text-[black] transition-all"
-                  : "text-4xl font-bold col-start-1 ml-20 text-[#f2f6f9] transition-all"
+                  ? "text-4xl font-bold col-start-1 ml-40 text-[black] transition-all"
+                  : "text-4xl font-bold col-start-1 ml-40 text-[#f2f6f9] transition-all"
               }
             >
               <span>तेज़</span> Life
@@ -27,8 +27,8 @@ export default function Navbar() {
             type="button"
             className={
               showNavbar
-                ? "text-4xl col-end-4 mr-20 text-black transition-all"
-                : "text-4xl col-end-4 mr-20 text-[#f2f6f9] transition-all"
+                ? "text-4xl col-end-4 mr-40 text-black transition-all"
+                : "text-4xl col-end-4 mr-40 text-[#f2f6f9] transition-all"
             }
             onClick={() => setShowNavbar(!showNavbar)}
           >
