@@ -12,7 +12,7 @@ export default function RecentWork() {
         </h2>
         <hr />
 
-        <div className="flex mt-16">
+        <div className="lg:flex mt-16">
           <div>
             <h4 className="text-xl flex-initial w-[450px]">company name</h4>
             <p className="text-4xl flex-initial mt-4">project details</p>
@@ -26,7 +26,7 @@ export default function RecentWork() {
           </div>
         </div>
         <hr />
-        <div className="flex mt-16">
+        <div className="lg:flex mt-16">
           <div>
             <h4 className="text-xl flex-initial w-[450px]">company name</h4>
             <p className="text-4xl flex-initial mt-4">project details</p>
@@ -40,7 +40,7 @@ export default function RecentWork() {
           </div>
         </div>
         <hr />
-        <div className="flex mt-16">
+        <div className="lg:flex mt-16">
           <div>
             <h4 className="text-xl flex-initial w-[450px]">company name</h4>
             <p className="text-4xl flex-initial mt-4">project details</p>

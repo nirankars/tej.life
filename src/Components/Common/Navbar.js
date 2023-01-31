@@ -9,7 +9,6 @@ export default function Navbar() {
 
   return (
     <div className="">
-      {/*  Navbar Starts */}
       <nav className={showNavbar ? "bg-slate-50" : "text-[#f2f6f9]"}>
         <div className="grid lg:grid-cols-2 sm:grid-cols-1 pt-4">
           <a href="/" className="">
@@ -70,27 +69,7 @@ export default function Navbar() {
           </Link>
         </div>
       </nav>
-      {/* Navbar ends */}
-
-      {/* Footer starts */}
-      {/* <div className="container mx-auto text-white grid grid-cols-2 mb-8 mt-16">
-        <h1 className="mt-4 text-lg ml-8">
-          {" "}
-          <span>तेज़</span> Life
-        </h1>
-        <div className="text-lg flex flex-row-reverse">
-          <a href="/" className="ml-2">
-            transparency{" "}
-          </a>
-          <a href="/" className="ml-2">
-            privacy{" "}
-          </a>
-          <a href="/" className="ml-2">
-            terms{" "}
-          </a>
-        </div>
-      </div> */}
-      {/* Footer ends */}
+     
     </div>
   );
 }

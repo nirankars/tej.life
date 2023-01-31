@@ -6,14 +6,14 @@ export default function Intro() {
   return (
     <>
       <div className="container mx-auto text-white">
-        <div className="flex gap-10">
+        <div className="lg:flex md:flex gap-10">
           <div className="basis-1/2">
             <h1 className="text-8xl font-bold mt-64 text-[#7b8291]">
               bring your <br /> unique self
             </h1>
           </div>
           <div className="basis-1/2">
-            <p className="text-2xl mt-64 ml-56">
+            <p className="text-2xl lg:mt-64 md:mt-64 sm:mt-20 lg:ml-56">
               Taking care of each other is core to how we operate at Big
               Spaceship. We strive to foster a culture of inclusivity where we
               take care of each other, regardless of age, gender identity, race,

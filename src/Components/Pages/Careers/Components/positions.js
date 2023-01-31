@@ -5,14 +5,14 @@ export default function Careers() {
   return (
     <>
       <div className="text-white container mx-auto">
-        <div className="flex gap-10">
+        <div className="lg:flex md:flex gap-10">
           <div className="basis-1/2">
             <h1 className="text-8xl font-bold mt-64 text-[#7b8291]">
               open <br /> positions
             </h1>
           </div>
           <div className="basis-1/2">
-            <p className="text-2xl mt-64 ml-56">
+            <p className="text-2xl lg:mt-64 md:mt-56 sm:mt-20 lg:ml-56 md:ml-56">
               Our people are our most important asset and we make every effort
               to treat them as such. They are never viewed as a line item on a
               spreadsheet, or a percentage in a budget, but instead are at the
@@ -43,14 +43,14 @@ export default function Careers() {
           </div>
         </div>
 
-        <div className="flex gap-10">
+        <div className="lg:flex md:flex gap-10">
           <div className="basis-1/2">
             <h1 className="text-8xl font-bold mt-64 text-[#7b8291]">
               humans <br /> not robots
             </h1>
           </div>
           <div className="basis-1/2">
-            <p className="text-2xl mt-64 ml-56">
+            <p className="text-2xl lg:mt-64 md:mt-64 sm:mt-20 lg:ml-56 md:ml-56">
               We foster a culture of inclusion and welcome applicants of all
               races, genders, ages, identities, orientations, beliefs, abilities
               and experience levels. We pride ourselves on taking care of each
